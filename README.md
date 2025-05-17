@@ -20,7 +20,13 @@ Features
 
 📝 Built‑in usage banner & examples for ease of scripting.
 
-# Quick Start
+# using the web user interface
+python3 -m venv toolkit
+source toolkit/bin/activate
+pip install flask
+python3 app.py
+
+# Quick Start with CLI
 
 python3 enum_hosts_smb_winrm_rdp.py \
   -i 192.168.124.245-249 192.168.124.191 192.168.124.189 \
