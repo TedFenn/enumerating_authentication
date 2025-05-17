@@ -39,21 +39,21 @@ python3 enum_hosts_smb_winrm_rdp.py \
 
 # The script will:
 
--- Expand IP ranges.
--- Spawn up to 8 worker threads.
--- Run the appropriate crackmapexec or nxc command per protocol.
--- Log detailed output to host_enum_<timestamp>.txt.
--- Print a concise success table at the end.
+- Expand IP ranges.
+- Spawn up to 8 worker threads.
+- Run the appropriate crackmapexec or nxc command per protocol.
+- Log detailed output to host_enum_<timestamp>.txt.
+- Print a concise success table at the end.
 
 # Flags:
--i, --ips | One or more IPs or dash‑separated ranges
--u, --username | Username to authenticate with
--p, --password | Password (wrap in quotes if it contains special chars)
--d, --domain | Windows/AD domain
---smb | Enable SMB authentication test
---winrm | Enable WinRM authentication test
---rdp | Enable RDP authentication test
---threads | Max concurrent threads (default 10)
+- -i, --ips | One or more IPs or dash‑separated ranges
+- -u, --username | Username to authenticate with
+- -p, --password | Password (wrap in quotes if it contains special chars)
+- -d, --domain | Windows/AD domain
+- --smb | Enable SMB authentication test
+- --winrm | Enable WinRM authentication test
+- --rdp | Enable RDP authentication test
+- --threads | Max concurrent threads (default 10)
 
 # Ethical Usage Notice
 
