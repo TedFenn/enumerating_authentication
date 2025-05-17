@@ -29,13 +29,7 @@ Features
 
 # Quick Start with CLI
 
-python3 enum_hosts_smb_winrm_rdp.py \
-  -i 192.168.124.245-249 192.168.124.191 192.168.124.189 \
-  -u alice \
-  -p 'P@ssw0rd!' \
-  -d CORP.LOCAL \
-  --smb --winrm --rdp \
-  --threads 8
+python3 enum_hosts_smb_winrm_rdp.py -i 192.168.211.245-249 192.168.211.189 -u alice -p "P@ssw0rd" -d test.com --smb --winrm --rdp --threads 8
 
 # The script above will:
 
