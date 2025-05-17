@@ -37,12 +37,12 @@ python3 enum_hosts_smb_winrm_rdp.py \
   --smb --winrm --rdp \
   --threads 8
 
-# The script will:
+# The script above will:
 
-- Expand IP ranges.
-- Spawn up to 8 worker threads.
+- Expand IP ranges. 
+- Spawn up to 8 worker threads. Default is 10.
 - Run the appropriate crackmapexec or nxc command per protocol.
-- Log detailed output to host_enum_<timestamp>.txt.
+- Log detailed output to host_enum_YYYY-MM-DD_HH-MM-SS.txt.
 - Print a concise success table at the end.
 
 # Flags:
