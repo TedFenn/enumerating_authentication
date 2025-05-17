@@ -20,11 +20,12 @@ Features
 
 📝 Built‑in usage banner & examples for ease of scripting.
 
-# using the web user interface
+# Using the Web User Interface
 - python3 -m venv toolkit
 - source toolkit/bin/activate
 - pip install flask
 - python3 app.py
+- Access on port localhost:5000
 
 # Quick Start with CLI
 
