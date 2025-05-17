@@ -21,10 +21,10 @@ Features
 📝 Built‑in usage banner & examples for ease of scripting.
 
 # using the web user interface
-python3 -m venv toolkit
-source toolkit/bin/activate
-pip install flask
-python3 app.py
+- python3 -m venv toolkit
+- source toolkit/bin/activate
+- pip install flask
+- python3 app.py
 
 # Quick Start with CLI
 
